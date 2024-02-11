@@ -1,0 +1,72 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+a{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    transition: all .2s step-end;
+}
+
+a:hover{
+    transform: scale(1.1);
+    color: #fff800;
+    text-decoration: none;
+}
+
+.card-heading{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.card{
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    
+}
+
+.card:hover{
+    border: 2px solid #fff800;
+}
+
+.card-image{
+    width: auto;  
+    align-items: center;
+}
+
+
+
+
+
+.featured-posts
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 1.5rem;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
